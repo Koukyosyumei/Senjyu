@@ -2,7 +2,7 @@ import scipy.stats as stats
 from mpi4py import MPI
 from numpy.random import choice
 
-from decisiontree import DecisionTree, Vertex
+from .decisiontree import DecisionTree, Vertex
 
 
 class RandomForest(DecisionTree):

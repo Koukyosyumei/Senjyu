@@ -3,7 +3,7 @@ import pandas as pd
 import scipy.stats as stats
 from numpy.random import choice
 
-from loss import entropy, gini, mis_math, sq_loss
+from ...loss import entropy, gini, mis_math, sq_loss
 
 NAME2CRITERION = {
     "sq_loss": sq_loss,
